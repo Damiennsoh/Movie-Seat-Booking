@@ -9,14 +9,14 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: larger;
   text-align: justify;
-  background-color: #f0e00a;
+  background-color: #c0b733;
 }
 
 /* navbar */
 /* Navbar styles */
 .navbar {
   background-color: #5e5252;
-  color: #c03030;
+  color: #51229c;
   display: flex;
   justify-content: space-between;
   align-items: center;
