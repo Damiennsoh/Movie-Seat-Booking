@@ -28,10 +28,12 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  list-style: none;
 }
 
 .navbar li {
   margin-left: 10px;
+  font-size: larger;
 }
 
 .navbar li a {
@@ -47,16 +49,18 @@
 }
 
 .navbar li:first-child {
-  margin-left: 0.5;
+  margin-left: 0px;
 }
 
 
 .movie-homepage span {
   color: #ff0000; /* Color for "BOOKING" */
+  font-weight: bolder;
 }
 
 .movie-homepage span.booking {
   color: black; /* Color for "movie-seat" */
+  font-weight: bolder;
 }
 
 body {
@@ -178,7 +182,7 @@ p.text span {
 } */
 
 .footer {
-  background-color: #333;
+  background-color: rgb(85, 87, 117);
   color: #fff;
   padding: 20px;
 }
