@@ -34,6 +34,18 @@
   margin-left: 10px;
 }
 
+.navbar li a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+}
+
+.navbar li a:hover {
+  color: #ff0000;
+  text-decoration: underline; /* Add underline on hover */
+}
+
 .navbar li:first-child {
   margin-left: 0;
 }
