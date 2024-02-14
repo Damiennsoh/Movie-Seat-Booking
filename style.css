@@ -245,3 +245,28 @@ p.text span {
   color: lightsalmon;
   text-decoration: none;
 }
+
+
+/* media querries */
+
+/* Default styles for desktop */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Media query for tablets */
+@media (max-width: 1023px) {
+  .header {
+    padding: 10px;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .header {
+    padding: 5px;
+    text-align: center;
+  }
+}
