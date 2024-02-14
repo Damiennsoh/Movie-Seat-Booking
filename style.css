@@ -185,6 +185,7 @@ p.text span {
   background-color: rgb(85, 87, 117);
   color: #fff;
   padding: 20px;
+  border-radius: 30px;
 }
 
 .footer ul {
@@ -192,7 +193,7 @@ p.text span {
   justify-content: center;
   align-items: center;
   list-style: none;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .footer li {
@@ -204,8 +205,9 @@ p.text span {
 }
 
 .footer li a {
-  color: #fff;
+  color: hsl(54, 90%, 45%);
   text-decoration: none;
+  font-weight: bold;
 }
 
 .footer p {
@@ -217,3 +219,29 @@ p.text span {
   text-decoration: underline;
 }
 
+/* styling of social links */
+#github,
+#facebook,
+#linkedin {
+  color: black; /* Set the color for GitHub,Facebook links and linkedIn */
+  font-weight: bolder;
+}
+
+#github:hover,
+#facebook:hover,
+#linkedin:hover {
+  color: hsl(216, 26%, 96%); /* Set the hover color for GitHub, Facebook links and linkedIn */
+}
+
+/* this style targets only the contact numbers */
+.footer a{
+  color: gold;
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+}
+
+.footer a:hover{
+  color: lightsalmon;
+  text-decoration: none;
+}
