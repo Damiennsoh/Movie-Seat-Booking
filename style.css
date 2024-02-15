@@ -169,6 +169,11 @@ body {
   box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
 }
 
+#count{
+  color: hsl(56, 90%, 51%);
+  font-weight: bolder;
+}
+
 p.text {
   margin: 5px 0;
 }
